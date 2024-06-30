@@ -1,0 +1,155 @@
+/* md and large */
+.fade-out,
+.landing-main-container {
+  -webkit-animation: fade-out 1s linear 5s both;
+  animation: fade-out 1s linear 5s both;
+}
+
+.logo {
+    height:auto;
+    -webkit-animation: logo 3s linear both;
+    animation: logo 3s linear both;
+}
+
+.logo-text {
+  -webkit-animation: logo-text 1.5s linear 3s both;
+	        animation: logo-text 1.5s linear 3s both;
+          color: var(--yellow-color-one);
+          border-color: var(--yellow-color-one);
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+  }
+
+  @keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+  }
+
+@-webkit-keyframes logo {
+  from {
+     width: 0;      
+     opacity: 0;
+  }
+  to {
+    width: 25rem;
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  from {
+      width: 0;  
+      opacity: 0;    
+  }
+   to {
+    width: 25rem;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes logo-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* sm */
+
+.sm-fade-out,
+.sm-landing-main-container{
+-webkit-animation: fade-out 1s linear 5s both;
+animation: fade-out 1s linear 5s both;
+}
+
+.sm-logo {
+  height:auto;
+  -webkit-animation: sm-logo 4s linear both;
+  animation: sm-logo 4s linear both;
+}
+
+.sm-logo-text {
+-webkit-animation: logo-text 1.5s linear 3s both;
+        animation: logo-text 1.5s linear 3s both;
+        color: var(--yellow-color-one);
+        border-color: var(--yellow-color-one);
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  }
+  }
+  @keyframes fade-out {
+  0% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  }
+  }
+
+@-webkit-keyframes sm-logo-text {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+@keyframes sm-logo-text {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+
+@webkit-keyframes sm-logo {
+from {
+   width: 0;    
+   opacity: 0;  
+}
+to {
+  width: 15rem;
+  opacity: 1;
+}
+}
+
+@keyframes sm-logo {
+from {
+    width: 0;
+    opacity: 0;      
+}
+ to {
+  width: 15rem;
+  opacity: 1;
+}
+}
+

@@ -1,0 +1,15 @@
+.res-btn {
+    border: 1px solid gray;
+    font-size: x-large;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgba(245, 245, 245, 0.306);
+    background-color: #100607;
+    overflow: hidden;
+    backdrop-filter: blur(3px);
+    color:whitesmoke;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+}

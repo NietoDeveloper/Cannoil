@@ -1,0 +1,55 @@
+* {
+  /* css reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* global styles  */
+  scroll-behavior: smooth;
+  font-style: normal;
+  height:min-content;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  /* variables */
+
+  /* colors */
+  --red-color-one: #33ff00;
+  --red-color-two: #33ff00;
+  --red-color-three: #33ff00;
+  --yellow-color-one: #aca000;
+  --yellow-color-two: #ddda13;
+  --white-color: rgb(255, 255, 255);
+  --black-color: #003b05;
+  --gray-color: rgba(7, 3, 252, 0.295);
+
+  /* fonts */
+  --impact-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+  background-color: var(--black-color);
+}
+
+.main-app {
+	-webkit-animation: main-fade-in 1s linear both;
+	        animation: main-fade-in 1s linear both;
+}
+
+@-webkit-keyframes main-fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes main-fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

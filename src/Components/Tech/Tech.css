@@ -1,0 +1,19 @@
+#Tech {
+    border-top: 3px solid var(--yellow-color-two);
+    background-color: var(--black-color);
+}
+
+.tech-header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--yellow-color-one);
+}
+
+.tech-icons-title {
+    color: var(--yellow-color-one);
+    transition: 500ms ease-in-out;
+}
+
+.tech-icons-title:hover {
+   color: var(--red-color-three);
+}
+

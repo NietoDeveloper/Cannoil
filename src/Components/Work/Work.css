@@ -1,0 +1,37 @@
+.work-main {
+    border-bottom: 3px solid var(--red-color-one);
+    border-top-color: var(--yellow-color-two);
+    background-color: var(--black-color);
+}
+
+.work-header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:var(--yellow-color-one)
+}
+
+.work-container,
+.projects-header {
+    color: var(--yellow-color-one)
+}
+
+.work-pics {
+    border-radius:7px; 
+    border: 1px solid var(--red-color-one);
+    filter: sepia(.9);
+    transition: 500ms ease-in-out;
+}
+
+.work-pics:hover {
+    filter: sepia(0);
+    border: 1px solid var(--gray-color);
+    box-shadow: 1px 1px 20px -5px var(--gray-color);
+}
+
+.git-repos {
+    transition: 500ms ease-in-out;  
+}
+
+.git-repos:hover {
+        color: var(--red-color-three);  
+}
+

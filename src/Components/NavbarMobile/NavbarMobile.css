@@ -1,0 +1,15 @@
+.navbar-mobile,
+.dropdown,
+.navlink {
+  background-color: var(--black-color);
+}
+
+.kurzawa {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: var(--red-color-one);
+}
+
+.development,
+li span {
+  color: var(--yellow-color-one)
+}

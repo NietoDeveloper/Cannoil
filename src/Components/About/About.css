@@ -1,0 +1,125 @@
+.about-main {
+  border-color: var(--yellow-color-one);
+}
+
+.welcome-message {
+  background-color: var(--red-color-one);
+  border-color: var(--yellow-color-one);
+}
+
+.kris-text {
+    font-family: var(--impact-font);
+    -webkit-animation: kris-fade-in .5s linear 2.5s both;
+	        animation: kris-fade-in .5s linear 2.5s both;
+}
+
+.kurzawa-text {
+    font-family: var(--impact-font);
+    -webkit-animation: kurzawa-fade-in .5s linear 2.5s both;
+	        animation: kurzawa-fade-in .5s linear 2.5s both;
+}
+
+.hello {
+    -webkit-animation: fade-in .5s linear 1s both;
+	        animation: fade-in .5s linear 1s both;
+}
+
+.my {
+    -webkit-animation: fade-in .5s linear 1.5s both;
+	        animation: fade-in .5s linear 1.5s both;
+}
+
+.name {
+    -webkit-animation: fade-in .5s linear 1.75s both;
+	        animation: fade-in .5s linear 1.75s both;
+}
+
+.is {
+    -webkit-animation: fade-in .5s linear 2s both;
+	        animation: fade-in .5s linear 2s both;
+}
+
+.description {
+    -webkit-animation: fade-in .5s linear 3s both;
+	        animation: fade-in .5s linear 3s both;
+}
+
+.about {
+  background-color: var(--white-color);
+  border-left-color: var(--red-color-one);
+  border-bottom-color: var(--red-color-one);
+  border-top-color: var(--red-color-two);
+}
+
+.about-text {
+    -webkit-animation: about-fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.75s both;
+    animation: about-fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.75s both;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+      color: var(--red-color-one)
+    }
+    100% {
+      color: var(--white-color);
+    }
+  }
+  @keyframes fade-in {
+    0% {
+        color: var(--red-color-one);
+      }
+      100% {
+        color: var(--white-color);
+      }
+    }
+
+            @-webkit-keyframes kris-fade-in {
+        0% {
+          color: var(--red-color-one)
+        }
+        100% {
+          color: var(--black-color);
+        }
+      }
+      @keyframes kris-fade-in {
+        0% {
+            color: var(--red-color-one)
+          }
+          100% {
+            color: var(--black-color);
+          }
+        }
+
+        @-webkit-keyframes kurzawa-fade-in {
+            0% {
+              color: var(--red-color-one)
+            }
+            100% {
+              color: var(--yellow-color-one);
+            }
+          }
+          @keyframes kurzawa-fade-in {
+            0% {
+                color: var(--red-color-one)
+              }
+              100% {
+                color: var(--yellow-color-one);
+              }
+            }
+
+  @-webkit-keyframes about-fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes about-fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

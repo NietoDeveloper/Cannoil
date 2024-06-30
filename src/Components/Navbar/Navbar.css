@@ -1,0 +1,34 @@
+#navbar {
+  background-color: var(--black-color);
+}
+
+.kurzawa {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: var(--red-color-one);
+}
+
+.development,
+.nav-link {
+  color: var(--yellow-color-one)
+}
+
+.nav-link {
+  display: inline-block;
+  transition: 500ms ease-in-out;
+}
+
+.nav-link:after,
+.nav-link:before {
+  display:block;
+  content: '';
+  width: inherit;
+  border: solid 1px;  
+  transform: scale(0);  
+  transition: 500ms ease-in-out;
+}
+
+.nav-link:hover:after,
+.nav-link:hover:before { 
+  transform: scale(1);
+  border: solid 1px var(--red-color-one);
+}

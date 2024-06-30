@@ -1,0 +1,39 @@
+.footer {
+	-webkit-animation: footer 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: footer 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          color: var(--yellow-color-one);
+          background-color: var(--black-color);
+          border-color: var(--yellow-color-two)
+}
+
+.social-icons,
+.top-link,
+.mailto-link,
+.phone-link,
+.webdev-link {
+  transition: 500ms ease-in-out;
+}
+
+.social-icons:hover,
+.top-link:hover:hover,
+.mailto-link:hover,
+.phone-link:hover {
+  color: var(--red-color-three);
+}
+
+@-webkit-keyframes footer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes footer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
